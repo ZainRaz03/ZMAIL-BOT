@@ -59,7 +59,7 @@ Response back to WhatsApp
 
 1. **Clone the Repository**
    
-   git clone https://github.com/yourusername/zmail-bot.git
+   git clone https://github.com/ZainRaz03/ZMAIL-BOT.git
    cd zmail-bot
   
 
