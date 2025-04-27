@@ -99,6 +99,14 @@ Response back to WhatsApp
    
    uvicorn main:app --host 0.0.0.0 --port 8001 --reload
 
+9. **Setting Up ngrok**
+    
+   To make your local server accessible on the internet, use ngrok:
+
+     ngrok http 8000
+
+   Copy the HTTPS URL provided by ngrok and paste it with the endpoint /webhook/whatsapp there on twilio.
+
 
 
 
