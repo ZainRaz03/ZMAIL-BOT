@@ -60,34 +60,42 @@ Response back to WhatsApp
 1. **Clone the Repository**
    
    git clone https://github.com/ZainRaz03/ZMAIL-BOT.git
+   
    cd zmail-bot
   
 
-2. **Create a Virtual Environment**
+3. **Create a Virtual Environment**
 
    python3 -m venv venv
+   
    source venv/bin/activate
    
 
-3. **Install Dependencies**
+5. **Install Dependencies**
    
    pip install -r requirements.txt
    
 
-4. **Setup Environment Variables**
+6. **Setup Environment Variables**
 
    Create a `.env` file in the root directory and add:
    
    GOOGLE_API_KEY=your_google_gemini_api_key
+   
    TWILIO_ACCOUNT_SID=your_twilio_sid
+   
    TWILIO_AUTH_TOKEN=your_twilio_auth_token
+   
    TWILIO_PHONE_NUMBER=your_twilio_phone_number
+   
    SENDER_EMAIL=your_email@example.com
+   
    SENDER_NAME=Your Name
+   
    SENDER_PASSKEY=your_email_app_password
   
 
-5. **Run the Server**
+8. **Run the Server**
    
    uvicorn main:app --host 0.0.0.0 --port 8001 --reload
 
