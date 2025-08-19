@@ -16,7 +16,7 @@ os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
 logger = logging.getLogger(__name__)
 
-
+# Base agent class
 class BaseAgent(Agent):
     def __init__(self, name, model, tools=None, description=None, instructions=None, show_tool_calls=False, debug_mode=False):
         super().__init__(
